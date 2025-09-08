@@ -1116,7 +1116,7 @@ export default function MealPlanningSystem() {
       // السناك (Snacks) - keeping the existing snacks
       {
         name: "مكسرات مشكلة",
-        category: "السناك",
+        category: "جديدنا",
         ingredients: "لوز , جوز , كاجو , فستق",
         image: "/placeholder.svg?height=200&width=300&text=مكسرات+مشكلة",
       },
@@ -1358,7 +1358,7 @@ export default function MealPlanningSystem() {
             <div className="p-3 bg-primary rounded-full shadow-lg">
               <ChefHat className="h-8 w-8 text-primary-foreground" />
             </div>
-            <h1 className="text-4xl font-bold text-primary text-balance">اختيار الوجبات الاسبوعية</h1>
+            <h1 className="text-4xl font-bold text-primary text-balance font-sans">اختيار الوجبات الاسبوعية</h1>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
             خطط وجباتك الصحية بسهولة مع نظام متقدم يوفر لك خيارات متنوعة ومتوازنة غذائياً
